@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ffffff;
+  padding: 32px 20px;
+  width: 1040px;
+  border: 1px solid #eeeeee;
+  -webkit-box-shadow: 0px 3px 8px rgba(29, 36, 38, 0.04);
+          box-shadow: 0px 3px 8px rgba(29, 36, 38, 0.04);
+  border-radius: 2px;
+}
+
+.form .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.a-label-default {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #7d7d7d;
+  height: 32px;
+  width: 140px;
+}
+
+.a-label-extraTopSpace {
+  padding-top: 38px;
+}
+
+.a-inputField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.a-inputField input {
+  border: 1px solid #d2d2d2;
+  border-radius: 2px;
+  height: 32px;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: normal;
+  padding-left: 8px;
+  color: #141414;
+}
+
+.a-inputField input:focus {
+  outline: none !important;
+  border: 1px solid #368BC2;
+}
+
+.a-inputField .top-label {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+  color: #7d7d7d;
+  padding: 0px 0px 4px 4px;
+}
+
+.a-inputField .caption {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #7d7d7d;
+  padding: 4px 0px 0px 4px;
+}
+
+.a-inputField:hover input {
+  border: 1px solid #368bc2;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+.a-inputfield-size-xsmall {
+  width: 68px;
+}
+
+.a-inputfield-size-small {
+  width: 148px;
+}
+
+.a-inputfield-size-medium {
+  width: 228px;
+}
+
+.a-inputfield-size-regular {
+  width: 308px;
+}
+
+.a-inputfield-size-large {
+  width: 388px;
+}
+/*# sourceMappingURL=main.css.map */
